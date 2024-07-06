@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  body{height:100%;
+    width:100%;
+    background-image:url(./assets/white-blank-background-texture-design-element_53876-139776.jpg);/*your background image*/  
+    background-repeat:no-repeat;/*we want to have one single image not a repeated one*/  
+    background-size:cover;/*this sets the image to fullscreen covering the whole screen*/  
+    /*css hack for ie*/     
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./assets/white-blank-background-texture-design-element_53876-139776.jpg',sizingMethod='scale');
+    -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./assets/white-blank-background-texture-design-element_53876-139776.jpg',sizingMethod='scale')";
+ }
+}
+
+button {
+  cursor: pointer;
+}
